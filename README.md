@@ -1,19 +1,52 @@
-Mental Health Chatbot
-This project is a mental health chatbot designed to provide support and assistance for individuals seeking help with mental well-being. The chatbot offers conversational interactions, coping strategies, and resources for users, aiming to create an empathetic and non-judgmental environment.
+# Mental Health Chatbot
 
-Features:
-Conversational Support: Engages users in meaningful dialogue to address their concerns.
-Emotion Recognition: Understands user sentiments to provide tailored responses.
-Coping Strategies: Suggests techniques for stress management and mental health improvement.
-Accessibility: User-friendly interface accessible via web or mobile.
-Modules:
-User Interface (UI): Provides an intuitive and interactive front-end for user interaction.
-Natural Language Understanding (NLU): Processes and understands user queries using predefined responses or machine learning models.
-Context Management: Maintains conversation flow by tracking the user's context.
-Response Generation: Creates appropriate replies to user queries, ensuring relevance and empathy.
-Backend: Handles the logic and integrates with external services if needed.
-Goals:
-Reduce barriers to mental health support.
-Offer a scalable, cost-effective solution for mental well-being.
-Enhance accessibility to mental health resources through technology.
-This chatbot serves as a helpful companion, aiming to provide users with immediate support and guidance while emphasizing privacy and empathy.
+## Overview
+This project is a Python Flask-based chatbot designed to support mental health and well-being by providing users with conversational support, resources, and guided interventions. The chatbot incorporates natural language understanding (NLU), context management, and response generation to deliver personalized and empathetic interactions.
+
+---
+
+## Features
+1. **User Interface**: Interactive web interface for seamless communication.
+2. **Natural Language Understanding (NLU)**: Extracts intent and emotion from user inputs.
+3. **Context Management**: Maintains conversation flow and adapts responses based on context.
+4. **Response Generation**: Provides meaningful and empathetic replies, including predefined and AI-generated responses.
+5. **Backend Integration**: Handles request routing, session management, and system logic.
+
+---
+
+## Installation
+
+### Prerequisites
+- Python 3.8+
+- Flask framework
+- Required Python packages listed in `requirements.txt`
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone <repository_url>
+   cd mental_health_chatbot
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+   ```bash
+   python app.py
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://127.0.0.1:5000
+   ```
+
+   
+## How It Works
+1. **User Interaction**: Users interact with the chatbot through a web-based UI.
+2. **Input Processing**: The NLU module processes user inputs to extract intent and sentiment.
+3. **Context Management**: Tracks previous interactions to ensure coherent conversations.
+4. **Response Generation**: Replies are generated using predefined templates or AI models.
+5. **Feedback Loop**: User feedback is logged for continuous improvement.
