@@ -4,7 +4,7 @@
 This project is a Python Flask-based chatbot designed to support mental health and well-being by providing users with conversational support, resources, and guided interventions. The chatbot incorporates natural language understanding (NLU), context management, and response generation to deliver personalized and empathetic interactions.
 
 ---
-
+![Mental Health Chatbot](CHATBOT.png)
 ## Features
 1. **User Interface**: Interactive web interface for seamless communication.
 2. **Natural Language Understanding (NLU)**: Extracts intent and emotion from user inputs.
